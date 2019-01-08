@@ -29,7 +29,7 @@ def parse_one_page(html):
 	    'index': item[0],
 	    'image': item[1],
 	    'title': item[2].strip(),
-	    'octor': item[3].strip()[3:],
+	    'actor': item[3].strip()[3:],
 	    'time': item[4].strip()[5:],
 	    'score': item[5] + item[6]
 	}
